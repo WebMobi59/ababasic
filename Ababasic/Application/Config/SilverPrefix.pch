@@ -1,0 +1,34 @@
+//  SilverPrefix.pch
+//  Created by Silver
+
+#ifndef SilverPrefix_pch
+#define SilverPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+// Library
+
+#import "Config.h"
+#import "ActivityIndicator.h"
+//#import "SessionManager.h"
+#import "JSON.h"
+#import "UIImageView+AFNetworking.h"
+#import "AFNetworking.h"
+#import "UIButton+AFNetworking.h"
+#import "DoAlertView.h"
+
+
+#import "AppController.h"
+#import "CommonUtils.h"
+#import "UserManage.h"
+
+#define appController [AppController sharedInstance]
+#define commonUtils [CommonUtils shared]
+#define userManage [UserManage shared]
+
+
+
+
+#endif
